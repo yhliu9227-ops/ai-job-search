@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Rhino, Grasshopper (parametric/computational design), Revit, AutoCAD, digital fabrication (3D printing, laser cutting, heat welding, physical prototyping), Enscape/V-Ray/D5 rendering, Adobe Creative Suite, hypothesis-driven experimental research, field research and comparative case-study analysis
+**Moderate match areas:** Introductory Python, GIS and urbanization-data analysis, structural and environmental analysis, general architectural production/documentation (DOB-style drafting and coordination)
+**Weak match areas:** Robotics programming/control (e.g. robotic-arm toolpathing, KUKA|PRC or similar), machine-learning/AI tooling beyond generative/parametric design (no formal ML framework experience), BIM-based digital twin platforms, formal peer-reviewed publication record
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +74,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Architecture-technology research work: computational/parametric design research (Grasshopper simulations cross-validated against physical prototypes), digital fabrication and material testing, hypothesis-driven experimental research, field research and theoretical synthesis (degree project)
+**Moderate:** General architecture production and drafting (RSP internship: AutoCAD/Revit drawing sets, site analysis, DOB-style documentation) - transferable project and documentation discipline, but not itself computational/robotics/AI research
+**Entry-level:** Robotics/digital fabrication research specifically (no formal robotic-arm or industrial-automation experience; digital fabrication experience so far is 3D printing/laser cutting/hand fabrication, not robotic), AI/ML-driven computational generation (has generative/rule-based parametric design experience, not formal ML), building digital twin work (no direct experience), formal research-assistant or administrative-assistant employment (thesis and studio research so far, not yet a paid RA/admin role)
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -106,20 +106,23 @@ Does this role advance career goals and contain tasks that energize?
 | 40-59 | Decent job but doesn't build toward career goals |
 | 0-39 | Dead end or backwards step |
 
-**Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+**Two parallel job-search tracks:** The candidate is running two independent searches at once, not one ranked list. A posting belongs to whichever track fits it; score Career Alignment against *that track's own goals*, not against the other track's. Neither track is the other's fallback - a strong-fit Industry Track role should score as well as an equally strong-fit Academic Track role. Record which track a posting belongs to (see "Tracker: recording the track" below) so `/apply`, `/rank`, and `/upskill` can filter and report on them separately.
 
-**Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+**Track A — Academic / Research Track**
+- **Goal:** Build a focused research portfolio in architectural technology - ideally robotics + digital fabrication, or AI-driven computational generation / building digital twins - to strengthen PhD applications for Fall 2027 (Fall 2028 as fallback), and to generate strong recommendation letters from faculty, lab leads, or practitioners in these areas.
+- **Fits this track:** Research assistant, lab assistant, or administrative-assistant roles inside a university lab, research group, or practice explicitly doing robotics/digital fabrication, AI-driven computational/generative design, digital twins, or comparably research-oriented architectural-technology work.
+- **Tasks that energize:** Robotics and digital fabrication, AI/computational and generative design tools, digital twin work, hypothesis-driven experimentation and prototyping, research that could plausibly inform or feed into a PhD topic, working alongside faculty or researchers who could later serve as recommenders.
+- **Life-situation notes specific to this track:** Needs enough schedule flexibility in fall 2026 to prepare and submit Fall 2027 PhD applications (typically due Nov-Jan) alongside working - a role extremely rigid about hours during that window is a real friction point worth flagging. Values employers who will not need to sponsor a long-term visa immediately, since the intended horizon is graduate study, not a permanent hire.
 
-**Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+**Track B — Industry / Job Search Track**
+- **Goal:** Build stable, paid architecture experience and income in the general field (production, drafting, administrative, or other standard architecture-practice roles), independent of whether it touches robotics/AI/research at all.
+- **Fits this track:** General architecture practice roles - production, drafting, DOB filing/administrative support, and similar - evaluated on their own normal merits (skills match, experience match, compensation, growth as an architecture professional), the same way `04-job-evaluation.md` would score any candidate's job search.
+- **Tasks that energize:** The same production skills already in the profile - AutoCAD/Revit drafting, site analysis, documentation, team-based project delivery.
+- **Life-situation notes specific to this track:** Same OPT/visa status and Fall 2027/2028 PhD-application scheduling constraint applies here too (flag scheduling rigidity the same way), but do not penalize a Track B role's Career Alignment score for lacking a research component - that is not what Track B is for.
+
+**Shared status (applies to both tracks):** F-1 OPT, first year, eligible for the 24-month STEM OPT extension.
+
+**Tracker: recording the track** - When logging an application in `job_search_tracker.csv` (see `/apply` Step 6b), set the dedicated `track` column to `academic_track` or `industry_track` so the two searches can be filtered and reported on independently. This is a separate column from `role_type` (which stays reserved for what the posting itself states about employment type, e.g. "Entry-level" or "Contract").
 
 ### 6. Salary Benchmark (Optional)
 

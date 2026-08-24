@@ -323,9 +323,9 @@ Do this before the optional offer below, and before ending the turn for any othe
 
 1. Read `job_search_tracker.csv`. If it does not exist, create it with the standard header (identical to `/outcome` Step 1.1, so the two commands never diverge):
    ```
-   date,company,sector,role,role_type,channel,status,contact_person,fit_rating,notes,cv_file,cover_letter_file,source,deadline
+   date,company,sector,role,role_type,channel,status,contact_person,fit_rating,notes,cv_file,cover_letter_file,source,deadline,track
    ```
-   **If the file exists and its header does not end in `,deadline`, append `,deadline` to the header line only** - no data row is touched. Legacy rows then read as an empty deadline.
+   **If the file exists and its header does not end in `,deadline`, append `,deadline` to the header line only** - no data row is touched. Legacy rows then read as an empty deadline. **If the header does not end in `,track` (whether or not `,deadline` was just appended), append `,track` to the header line only** - no data row is touched, and legacy rows read as an empty track.
 2. Match existing rows case-insensitively on company and role. **On no match, or when every match holds a final status, append a new row. On a match that is still open, update it.** "Final" and "open" are defined by the **Tracker status vocabulary** in `/outcome` — the legacy space spellings `no response` / `offer declined` count as final, so a closed application never gets its row overwritten. When you append alongside a final row, say so — the earlier application to that role keeps its own row and its own outcome.
 3. Values for a new row:
 
@@ -339,6 +339,7 @@ Do this before the optional offer below, and before ending the turn for any othe
    | `channel` | `portal` when the posting came from a job portal, `online` for a company careers page, empty when unknown |
    | `sector`, `role_type`, `contact_person` | from the posting when it states them, empty otherwise |
    | `deadline` | the application deadline extracted in Step 0, as `YYYY-MM-DD`, empty when the posting states none. Never guess one from "apply soon" or from the posting date, and never carry a deadline over from a different posting |
+   | `track` | `academic_track` or `industry_track` per the two parallel tracks defined in `04-job-evaluation.md` - set from which track the posting fits, never from the posting itself (postings don't state this). Leave empty only if genuinely ambiguous and unresolved with the user. |
 
 4. **Updating an open row: never move it backwards.** Refresh `cv_file`, `cover_letter_file`, `fit_rating`, `source` and `deadline` (leave an existing deadline alone when this run extracted none - absence is not a correction), and append an undated `redrafted` marker to `notes` (undated deliberately — `/outcome` reads the latest *dated* note as the last contact with the employer, and re-drafting a CV is not that). Leave `status` alone, and leave `date` alone unless the status is still `drafted`, in which case it becomes today.
 5. Never restructure the CSV, reorder rows, or touch other rows.
