@@ -13,6 +13,7 @@ framework_version: 1.1.1
 - **GitHub:** [YOUR_PORTFOLIO_OR_GITHUB_URL]
 - **Status:** F-1 OPT (first year), eligible for 24-month STEM OPT extension. Requires eventual employer sponsorship (H-1B or equivalent) beyond STEM OPT.
 - **Constraints:** Prefers New York City and surrounding metro areas, with priority given to closer locations first; open to more distant cities as a lower priority. Open to remote roles.
+- **PhD plan:** Applying to PhD programs in architecture/architectural technology for Fall 2027 admission, with Fall 2028 as a fallback if the first cycle is unsuccessful. Current job search is partly a bridge toward that goal: prioritizing roles that build a research portfolio, generate recommendation letters, or otherwise strengthen PhD candidacy, while remaining open to general architecture production/administrative roles as a fallback income option in the meantime.
 
 ### Languages
 
@@ -25,7 +26,7 @@ framework_version: 1.1.1
 
 | Degree | Period | Institution | Key Topics |
 |--------|--------|-------------|------------|
-| Bachelor of Architecture | 08/2021 - 05/2026 | Pratt Institute | Architectural Design, Urbanism, Computational Design, Acoustic Metamaterials |
+| Bachelor of Architecture (GPA 3.24) | 08/2021 - 05/2026 | Pratt Institute | Architectural Design, Urbanism, Computational Design, Acoustic Metamaterials |
 
 ## Research Experience
 <!-- Substantial independent and studio-based research work, distinct from client/production work below.
