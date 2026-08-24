@@ -4,51 +4,50 @@ framework_version: 1.0.0
 
 # Behavioral Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
+<!-- Self-assessment drafted from resume signals (studio/team collaboration, RSP internship
+scope, CSSA secretary role, award-winning independent thesis). No PI/DISC/MBTI test on file -
+correct any line that doesn't match how you actually work. -->
 
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+Yuehan Liu's working pattern is best described as a **detail-driven collaborative analyst**: methodical in site analysis and documentation, comfortable working inside a team production pipeline (multiple concurrent studio/competition projects), and capable of carrying an independent conceptual project from research through to a finished, award-recognized thesis.
 
 ## Core Behavioral Drives
 
 | Drive | Level | Meaning |
 |-------|-------|---------|
-| [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
+| Precision / Detail Orientation | High | Consistently responsible for site documentation, drawing sets, and design review materials - work that must be accurate and presentation-ready |
+| Collaboration | High | Worked across four concurrent RSP projects inside design teams; organized group activities as CSSA Secretary |
+| Conceptual Independence | Medium-High | Self-directed a full thesis (research to design to exhibition) that won a degree project award |
+| Pace / Urgency | Medium | Comfortable with iterative, multi-round design optimization rather than single-pass, high-speed output |
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+- **Site-to-drawing follow-through:** Takes a project from raw site analysis through 3D modeling, layout drawings, and final presentation materials without dropping detail along the way.
+- **Team production reliability:** Delivered consistently across four simultaneous project tracks in one internship, each with a different program type and design phase.
+- **Independent concept development:** Originated and carried a speculative thesis topic to an awarded, exhibited outcome.
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+- Structured studio/production environments with clear phases (analysis, concept, development, presentation)
+- Team settings with defined roles, where personal ownership of a deliverable (a model, a drawing set, a set of diagrams) is clear
+- Environments that value visual/spatial communication (diagrams, renderings, models) as much as written communication
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+- **Limited formal client-facing or business-development experience:** Frame as strength in design production and technical delivery, paired with willingness to grow into client communication.
+- **Early-career breadth across project types:** Frame as versatility - exposure to stadium, mixed-use, hospitality, and competition work within a single internship shows adaptability across typologies.
 
 ## Mapping to Job Posting Language
 
 When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+- "site analysis," "design development," "collaborative studio," "cross-functional design team," "detail-oriented," "concept to documentation"
 
 When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+- "fast-paced, high-volume production with minimal review cycles," "primarily client-facing / business development role," "independent contractor with no team structure"
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+- Works best with clear phase-based direction and periodic design review checkpoints (matches RSP's "multiple rounds of design optimization" structure)
+- Less suited to unstructured, no-feedback-loop environments given limited experience working without review cycles
 
 ## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+- **Cover letters:** Lead with the site-analysis-to-presentation-materials thread as evidence of end-to-end reliability, then point to the thesis as proof of independent conceptual thinking.
+- **CV:** Emphasize the range of project types (stadium, mixed-use, hospitality, competition) and the software/documentation skills used to deliver each.
+- **Interviews:** Use the RSP multi-project internship and the thesis as STAR examples for teamwork and independent ownership, respectively.
+- **Don't overstate:** Do not claim client-facing, business-development, or standalone project-lead experience - the resume shows contributor/support roles within larger teams, not project leadership.
